@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.subdiv1{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+    background-color: antiquewhite;
+    width: 30%;
+    height: 30vh;
+    background-size: cover;
+    
+}
+img{
+    object-fit: cover;
+}
+.subdiv2{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    display: flex;
+}
